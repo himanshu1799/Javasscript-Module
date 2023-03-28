@@ -1,10 +1,7 @@
-- Create a JavaScript program that defines a function called "multiplyByTwo" that takes one parameter: "num". The function should return the input number multiplied by two.
+# Freecodecamp Add
 
+1. [Freecodecamplink] (https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/return-part-of-an-array-using-the-slice-method)
 
-- Create a JavaScript program that defines a function called "divideByTwo" that takes one parameter: "num". The function should return the input number divided by two.
+2. [Freecodecamplink] (https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/remove-elements-from-an-array-using-slice-instead-of-splice)
 
-
-- A function “findprime” is given with a parameter . Your function should print out all the prime from 1 till the number (parameter) present in the argument . 
-
-
-``` findprime(97)
+3. [Freecodecamplink] (https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/combine-two-arrays-using-the-concat-method)

@@ -1,15 +1,44 @@
-Creating and Filtering DOM Elements
-1. Create a basic HTML document with a header, a main section, and a footer.
+## Exercise: AdvanceJS-401-01
+
+1. Create input element and whatever text written in input must be displayed into the p tag 
+
+```html
+<input type="text" />
+<p class="wrote"></p>
+```
+
+Your job is output what ever is typed in the input into the p tag.
+![](./image/ex-1.png)
+
+<hr>
+
+## Exercise: AdvanceJS-401-02
+
+2. You are given a list of DOM elements inside a
+
+```html
+	<ul class="has-children"></div>.
+```
+
+Your job is to give the first child a blue background, the last child a palevioletred background and the 9th child a green background. Then make all of the even numbers lime using DOM Manipulation.
+![](./image/ex-2.png)
+
+<hr>
 
 
-2. In the main section, create a form with two text inputs for name and gender, and a button to submit the form.
+## Exercise: AdvanceJS-401-03
+
+3. create an image slider using JavaScript
+
+An Image Slider that comprises several images displayed on a web application is called “Slide Show” and “Carousels”. It permits you to show multiple images, videos, or graphics on a web application. Also, adding an Image Slider to a website can fascinate the users and capture their attention.
+![](./image/image-slider.gif)
+
+<hr>
 
 
-3. When the form is submitted, create a new DOM element to display the submitted data. The element should contain the name and gender values, and a delete button. Append this element to the main section.
 
+<hr>
 
-4. Add a click event listener to the delete button that removes the corresponding element from the main section.
+HOSTED LINK :
 
-
-5. Implement a filtering feature that allows users to filter the displayed elements based on gender value. Add two radio buttons, one for male and one for female. When a radio button is selected, hide all the elements with a gender value that does not match the selected value.
-
+<hr>
