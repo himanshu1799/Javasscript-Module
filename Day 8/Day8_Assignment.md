@@ -35,12 +35,7 @@ An Image Slider that comprises several images displayed on a web application is 
 
 <hr>
 
-## steps to submit your assignments
 
-- Complete the assignments listed above in their respective folder.
-- Push the assignent.
-- Host the assignments.
-- Provide the link below👇.
 
 <hr>
 
