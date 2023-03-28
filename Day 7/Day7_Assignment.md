@@ -1,49 +1,37 @@
-## Exercise: AdvanceJS-401-01
-
-1. Create input element and whatever text written in input must be displayed into the p tag 
-
-```html
-<input type="text" />
-<p class="wrote"></p>
-```
-
-Your job is output what ever is typed in the input into the p tag.
-![](./image/ex-1.png)
-
-<hr>
-
-## Exercise: AdvanceJS-401-02
-
-2. You are given a list of DOM elements inside a
-
-```html
-	<ul class="has-children"></div>.
-```
-
-Your job is to give the first child a blue background, the last child a palevioletred background and the 9th child a green background. Then make all of the even numbers lime using DOM Manipulation.
-![](./image/ex-2.png)
-
-<hr>
+Create a JavaScript program that does the following:
+1. Create a variable called "num" and assign it a value of your choice.
 
 
-## Exercise: AdvanceJS-401-03
+2. Use the Math.sqrt() method to calculate the square root of "num". Use console.log() to display the result.
 
-3. create an image slider using JavaScript
 
-An Image Slider that comprises several images displayed on a web application is called “Slide Show” and “Carousels”. It permits you to show multiple images, videos, or graphics on a web application. Also, adding an Image Slider to a website can fascinate the users and capture their attention.
-![](./image/image-slider.gif)
+3. Use the Math.random() method to generate a random number between 0 and 1. Multiply the result by 10 and round it to the nearest whole number using the Math.round() method. Use console.log() to display the result.
 
-<hr>
 
-## steps to submit your assignments
+4. Use the Date() constructor to create a new date object called "today". Use console.log() to display the current date and time.
 
-- Complete the assignments listed above in their respective folder.
-- Push the assignent.
-- Host the assignments.
-- Provide the link below👇.
 
-<hr>
+5. Use getter functions to extract the following information from the "today" object and display it in the console:
+Year
+Month (in numeric format)
+Day of the month
+Day of the week (in numeric format)
 
-HOSTED LINK :
 
-<hr>
+6. Use setter functions to set the following values in the "today" object:
+- Year to 2022
+- Month to December
+- Day of the month to 31
+
+
+7. Use getter functions to extract the updated values from the "today" object and display them in the console.
+
+
+8. Use the Date() constructor to create a new date object called "birthday". Set the year, month, and day of the month to your own birthday.
+
+
+9. Use the getTime() method to extract the number of milliseconds between the "birthday" object and the "today" object. Use console.log() to display the result.
+
+
+10. Use the getTime() method to extract the number of days between the "birthday" object and the "today" object. Use console.log() to display the result.
+

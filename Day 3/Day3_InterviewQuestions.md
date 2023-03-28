@@ -1,20 +1,13 @@
 
 # interview Questions 
 
-1. What is a Javascript object, and how does it differ from other data types in Javascript?
-2. How do you create an object in Javascript?
-3. Can you explain the concept of object literal notation in Javascript?
-4. How do you add properties and methods to an object in Javascript?
-5. Can you describe the difference between dot notation and bracket notation in accessing object properties in Javascript?
-6. How do you use the "new" keyword to create a new 7. object in Javascript?
-7. Can you explain the concept of object prototypes in Javascript?
-8. How do you create a constructor function for an object in Javascript?
-9. Can you describe the difference between the "this" keyword and the "self" keyword in Javascript object construction?
-10. How do you use object destructuring in Javascript?
-11. Can you explain the use of the "Object.create" method in Javascript?
-12. How do you use the "Object.keys" and "Object.values" methods to iterate over an object in Javascript?
-13. Can you explain the use of the "Object.freeze" method in Javascript?
-14. How do you use the "Object.assign" method to merge objects in Javascript?
-15. Can you describe the concept of inheritance in Javascript objects using the prototype chain?
-
-
+1. What is a string in programming, and how is it used in Java and JavaScript?
+2. What are some common methods used to manipulate strings in Java and JavaScript?
+3. How do you search for a substring within a string in JavaScript, and what does the search() method do?
+4. What are string templates in JavaScript, and how are they different from regular strings?
+5. How do you extract a substring from a larger string in JavaScript, and what's the difference between slice() and substring() methods?
+6. What is the toLowerCase() method in JavaScript, and how is it used?
+7. What is the concat() method in JavaScript, and how is it used?
+8. What is the charAt() method in JavaScript, and how is it used?
+9. What is the indexOf() method in JavaScript, and how is it used?
+10. What is the replace() method in JavaScript, and how is it used to replace a substring with another substring within a string?
