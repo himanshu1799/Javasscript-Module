@@ -106,8 +106,8 @@ console.log(result); // Output: true
 ```
 In the example above, the some() method checks whether at least one element in the array is greater than 3, which is true.
 
-8. 
-every(): The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a boolean value.
+
+8. every(): The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a boolean value.
 
 Example : 
 
