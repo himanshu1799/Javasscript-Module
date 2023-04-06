@@ -22,7 +22,7 @@ It should be noted that data stored in either localStorage or sessionStorage is 
 
 The keys and the values are always strings (note that, as with objects, integer keys will be automatically converted to strings).
 
-![web_storage](../images/web_storage.png)
+
 
 ### sessionStorage
 
@@ -68,7 +68,7 @@ Web Storage objects:
 - _localStorage.removeItem()_ - to remove stored item form a localStorage. It takes key as a parameter.
 - _localStorage.key()_ - to display a data stored in a localStorage. It takes index as a parameter.
 
-![local_storage](../images/local_storage.png)
+
 
 ### Setting item to the localStorage
 
