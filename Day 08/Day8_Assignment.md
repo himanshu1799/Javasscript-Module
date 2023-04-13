@@ -35,10 +35,3 @@ An Image Slider that comprises several images displayed on a web application is 
 
 <hr>
 
-
-
-<hr>
-
-HOSTED LINK :
-
-<hr>
