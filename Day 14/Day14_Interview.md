@@ -16,4 +16,3 @@
 12. How do you handle errors and exceptions in asynchronous code?
 13. Can you explain the concept of event loop in JavaScript and how it relates to asynchronous programming?
 14. What is the difference between promises and callbacks in JavaScript?
-15. How do you manage concurrency in asynchronous code?

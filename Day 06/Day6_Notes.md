@@ -5,7 +5,7 @@ Functional Programming (FP) is a programming paradigm that focuses on using func
 ## forEach():
 forEach() is a built-in JavaScript method that is used to loop through an array and execute a function on each element. It takes a callback function as its argument, which is called for each element in the array. The callback function takes three arguments: the current element, the index of the current element, and the array being looped through.
 
-```
+```js
 const nums = [1, 2, 3, 4, 5];
 nums.forEach(num => {
   console.log(num * 2);
@@ -15,7 +15,7 @@ nums.forEach(num => {
 
 Output :
 
-```
+```js
 2
 4
 6
@@ -27,7 +27,7 @@ Output :
 ## sort():
 sort() is a built-in JavaScript method that is used to sort the elements of an array. It can be used to sort an array of strings, numbers, or objects based on a specified property. It sorts the elements of the array in place and returns the sorted array. If no argument is provided, it sorts the elements in lexicographic order.
 
-```
+```js
 const names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve'];
 const sortedNames = names.sort();
 console.log(sortedNames);
@@ -35,7 +35,7 @@ console.log(sortedNames);
 ```
 Output : 
 
-```
+```js
 ["Alice", "Bob", "Charlie", "David", "Eve"]
 
 ```
@@ -44,7 +44,7 @@ It sorts the names array in lexicographic order using the sort() method.
 ## map():
 map() is a built-in JavaScript method that is used to create a new array by applying a function to each element of an existing array. It takes a callback function as its argument, which is called for each element in the array. The callback function takes three arguments: the current element, the index of the current element, and the array being looped through. The value returned by the callback function is used to create a new element in the new array.
 
-```
+```js
 const nums = [1, 2, 3, 4, 5];
 const doubledNums = nums.map(num => num * 2);
 console.log(doubledNums);
@@ -60,7 +60,7 @@ It creates a new array doubledNums by applying the function num * 2 to each elem
 ## filter():
 filter() is a built-in JavaScript method that is used to create a new array with all the elements of an existing array that pass a certain test. It takes a callback function as its argument, which is called for each element in the array. The callback function takes three arguments: the current element, the index of the current element, and the array being looped through. The elements that pass the test are added to a new array.
 
-```
+```js
 const people = [
   { name: 'Alice', gender: 'female' },
   { name: 'Bob', gender: 'male' },
@@ -74,7 +74,7 @@ console.log(males);
 
 This code will log the following to the console:
 
-```
+```js
 [  { name: "Bob", gender: "male" },  { name: "Charlie", gender: "male" },  { name: "David", gender: "male" }]
 ```
 
@@ -82,7 +82,7 @@ It creates a new array males with only the objects from the people array whose g
 ## reduce():
 reduce() is a built-in JavaScript method that is used to reduce an array to a single value by applying a function to each element of the array. It takes a callback function as its argument, which is called for each element in the array. The callback function takes two arguments: the accumulator and the current element. The accumulator is the value returned by the previous invocation of the callback function, and it is initialized to the initial value provided as the second argument to reduce(). The value returned by the final invocation of the callback function is the final value of the reduce operation.
 
-```
+```js
 const nums = [1, 2, 3, 4, 5];
 const sum = nums.reduce((accumulator, currentNum) => accumulator + currentNum, 0);
 console.log(sum);

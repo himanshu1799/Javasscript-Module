@@ -8,7 +8,7 @@ Callbacks are functions that are passed as arguments to other functions and are 
 
 Here's an example of using a callback to handle an asynchronous task:
 
-```
+```js
 function getData(callback) {
   setTimeout(() => {
     const data = [1, 2, 3, 4, 5];
@@ -29,7 +29,7 @@ When you have multiple asynchronous tasks to execute one after the other, and ea
 
 Here's an example of callback hell:
 
-```
+```js
 doSomething((result1) => {
   doSomethingElse(result1, (result2) => {
     doAnotherThing(result2, (result3) => {
@@ -45,7 +45,7 @@ Promises are objects that represent the eventual completion or failure of an asy
 
 Here's an example of creating a Promise object:
 
-```
+```js
 const promise = new Promise((resolve, reject) => {
   setTimeout(() => {
     const data = [1, 2, 3, 4, 5];
@@ -64,7 +64,7 @@ fulfilled: The state of a promise representing a successful operation.
 rejected: The state of a promise representing a failed operation.
 Here's an example of handling a Promise object using then:
 
-```
+```js
 const promise = new Promise((resolve, reject) => {
   setTimeout(() => {
     const data = [1, 2, 3, 4, 5];
@@ -87,7 +87,7 @@ The then method can be chained with multiple functions that take the result of t
 
 Here's an example of using then with catch:
 
-```
+```js
 fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then((response) => {
     if (!response.ok) {

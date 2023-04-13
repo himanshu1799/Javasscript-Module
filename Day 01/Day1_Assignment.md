@@ -1,8 +1,8 @@
-# Q1 - Assignment
+# Home - Assignments
 - Write a JavaScript program that defines a variable called "message" and assigns it the value "Hello, world!". Use console.log() to display the message in the console. 
 - Then, modify the program to define another variable called "name" and assign it your own name. Use console.log() to display a personalised message that includes both the "message" variable and the "name" variable.
 
-1. [Use Conditional Logic with If Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements)
+1. [Use Conditional Logic With If Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements)
 
 2. [Comparison with the Equality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 

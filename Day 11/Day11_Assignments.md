@@ -11,5 +11,3 @@
 - Implement a custom event emitter that allows you to create and emit custom events in your application. Include methods for adding and removing event listeners, as well as propagating events up or down the DOM tree.
 
 - Build a custom menu system using event listeners for the "mouseover" and "mouseout" events on a parent element. The menu should dynamically display submenus when the user hovers over specific menu items.
-
-These assignments will help you deepen your understanding of events in JavaScript and how they can be used to create dynamic and interactive web applications.

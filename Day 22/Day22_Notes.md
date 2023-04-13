@@ -1,4 +1,4 @@
-- [Closure](#closure)
+
 
 ## Closure
 

@@ -6,7 +6,7 @@
   - [history](#history)
   - [Navigator](#navigator)
   - [screen](#screen)
-    - [Exercises](#exercises)
+  
 
 ## Browser Object Model
 
@@ -253,10 +253,3 @@ Properties:
 ![](./img/screen.png)
 
 <hr>
-
-### Exercises
-
-### Exercises: Level 1
-
-1. scroll to 275px horizontally and 324px vertically smoothly and alert the width and height
-   of the browser window , in pixels

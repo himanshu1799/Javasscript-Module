@@ -6,7 +6,6 @@
 4.  How does JavaScript work with HTML and CSS?
 5. What are some common JavaScript frameworks and libraries?
 6. What is Node.js and how is it used in web development?
-7. What are the advantages of using Node.js over other server-side technologies?
 8. How can you install Node.js on your system?
 9. What is the process for executing a JavaScript file with Node.js?
 10. What is console.log() in JavaScript and how is it used?
@@ -16,8 +15,6 @@
 14. What are the different types of operators in JavaScript?
 15. What is the difference between == and === operators in JavaScript?
 16. How do you handle errors in JavaScript?
-17. What is the role of event listeners in JavaScript?
-18. How do you use callbacks in JavaScript?
 19. What are some best practices for writing efficient and maintainable JavaScript code?
-20. How do you stay up to date with the latest developments in JavaScript and web development?
+
 

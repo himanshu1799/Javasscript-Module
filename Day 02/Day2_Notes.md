@@ -18,7 +18,7 @@
 
 - Here is an example of how to use the length property in Javascript:
 
-```
+```js
 const myArray = [1, 2, 3, 4, 5];
 console.log(myArray.length); // Output: 5
 
@@ -32,7 +32,7 @@ console.log(myArray.length); // Output: 5
 
  Example:
 
- ```
+ ```js
  const myArray = [1, 2, 3];
 myArray.push(4);
 console.log(myArray); // Output: [1, 2, 3, 4]
@@ -41,7 +41,7 @@ console.log(myArray); // Output: [1, 2, 3, 4]
 2. pop(): The pop() method removes the last element from an array and returns that element.
 Example:
 
-```
+```js
 const myArray = [1, 2, 3];
 const removedElement = myArray.pop();
 console.log(removedElement); // Output: 3
@@ -52,7 +52,7 @@ console.log(myArray); // Output: [1, 2]
 
 Example:
 
-```
+```js
 const myArray = [1, 2, 3];
 const removedElement = myArray.shift();
 console.log(removedElement); // Output: 1
@@ -63,7 +63,7 @@ console.log(myArray); // Output: [2, 3]
 
 Example : 
 
-```
+```js
 const myArray = [1, 2, 3];
 myArray.unshift(0);
 console.log(myArray); // Output: [0, 1, 2, 3]
@@ -74,7 +74,7 @@ console.log(myArray); // Output: [0, 1, 2, 3]
 
 Example:
 
-```
+```js
 const myArray = [1, 2, 3, 4, 5];
 const newArray = myArray.slice(1, 4);
 console.log(newArray); // Output: [2, 3, 4]
@@ -86,7 +86,7 @@ console.log(myArray); // Output: [1, 2, 3, 4, 5]
 
 Example:
 
-```
+```js
 const myArray = [1, 2, 3, 4, 5];
 myArray.splice(2, 2, 6, 7);
 console.log(myArray); // Output: [1, 2, 6, 7, 5]
@@ -98,7 +98,7 @@ In the example above, the splice() method removes two elements starting from the
 
 Example :
 
-```
+```js
 const myArray = [1, 2, 3, 4, 5];
 const result = myArray.some((element) => element > 3);
 console.log(result); // Output: true
@@ -111,7 +111,7 @@ In the example above, the some() method checks whether at least one element in t
 
 Example : 
 
-```
+```js
 const myArray = [1, 2, 3, 4, 5];
 const result = myArray.every((element) => element > 0);
 console.log(result); // Output: true

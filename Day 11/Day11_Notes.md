@@ -1,12 +1,4 @@
-- [Day 11](#day-17)
-	- [Event](#Event)
-	- [Event Listener](#Event-Listener)
-	- [Event Handler](#Event-Handler)
-	- [Event Bubbling](#Event-Bubbling)
-	- [Event Capturing](#Event-Capturing)
-	 
-
-# Event  
+# Event
 
 Events are actions or occurrences that happen in a web page, such as a button being clicked or a page finishing loading. Web developers can use events to trigger certain behaviors or actions in response to user interaction or changes to the web page. There are many different types of events available in JavaScript, including:
 
@@ -26,7 +18,7 @@ Events are actions or occurrences that happen in a web page, such as a button be
 
 An event listener is a function that is attached to an element and waits for a particular event to occur. When the event occurs, the listener function is executed.
 
-``` 
+```js
 const myButton = document.querySelector("#my-button");
 
 function buttonClicked() {
@@ -39,11 +31,12 @@ myButton.addEventListener("click", buttonClicked);
 In the code above, we have selected a button element with the ID "my-button" and defined a function called buttonClicked() that logs a message to the console. We then add an event listener to the button element that listens for a "click" event and executes the buttonClicked() function when the event occurs.
 
 ## Event-Handler:
+
 An event handler is a function that is assigned to an event property of an element. The function is executed when the event occurs.
 
 Example:
 
-```
+```js
 <button onclick="buttonClicked()">Click me</button>
 
 <script>
@@ -60,10 +53,12 @@ Event Propagation:
 Event propagation is the process by which an event is passed from the element that triggered it to other elements in the DOM tree. There are two types of event propagation: bubbling and capturing.
 
 ## Event-Bubbling:
+
 In event bubbling, the event is first captured by the innermost element and then propagated up the DOM tree to the outermost element.
 
 Example:
-```
+
+```js
 <div id="outer">
   <div id="middle">
     <div id="inner">
@@ -92,13 +87,14 @@ outer.addEventListener("click", handleClick);
 In the code above, we have defined four elements nested inside each other. We have also defined a function called handleClick() that logs a message to the console. We then add event listeners to each of the elements that listen for a "click" event and execute the handleClick() function. When the button is clicked, the event is first captured by the innermost element (the button), and then propagated up the DOM tree to the outermost element (the div with the ID "outer").
 
 ## Event-Capturing:
+
 Event capturing is the process by which an event is first captured by the outermost element in the DOM hierarchy and then propagated down to the innermost element. This is the opposite of event bubbling, where the event starts at the innermost element and then propagates up to the outermost element.
 
 During the capturing phase, the browser checks if any elements in the hierarchy have an event listener attached for the specific event type. If an event listener is found, the browser executes the listener function for that element.
 
 To use event capturing, you can use the addEventListener() method with the capture option set to true.
 
-```
+```js
 <div id="outer">
   <div id="middle">
     <div id="inner">

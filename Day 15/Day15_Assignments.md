@@ -11,7 +11,7 @@ const catsAPI = "https://api.thecatapi.com/v1/breeds";
 
 ### Exercises: Level 2
 
-1. Print out all the cat names in to catNames variable.
+1. Print out all the cat names in to catNames variable.(Api given above)
 
 ### Exercises: Level 3
 
