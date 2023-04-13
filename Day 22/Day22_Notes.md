@@ -1,5 +1,3 @@
-
-
 ## Closure
 
 JavaScript allows writing function inside an outer function. We can write as many inner functions as we want. If inner function access the variables of outer function then it is called closure.
@@ -27,7 +25,7 @@ console.log(innerFunc());
 3
 ```
 
-Let us more example of inner functions
+Let us see some more example of inner functions
 
 ```js
 function outerFunction() {
