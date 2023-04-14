@@ -116,7 +116,6 @@ console.log(words);
 
 We access each element in an array using their index. An array index starts from 0. The picture below clearly shows the index of each element in the array.
 
-![arr index](../images/array_index.png)
 
 ```js
 const fruits = ["banana", "orange", "mango", "lemon"];
@@ -605,4 +604,3 @@ console.log(fullStack[0]); // ["HTML", "CSS", "JS", "React", "Redux"]
 console.log(fullStack[1]); // ["Node", "Express", "MongoDB"]
 ```
 
-🌕 You are diligent and you have already achieved quite a lot. You have just completed day 5 challenges and you are 5 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
