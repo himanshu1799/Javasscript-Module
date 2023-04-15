@@ -1,8 +1,8 @@
 ## Arrays
 
-In contrast to variables, an array can store _multiple values_. Each value in an array has an _index_, and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_, and the index of the last element is less by one from the length of the array.
+- An array is a collection of different data types which are ordered and changeable(modifiable). An array allows storing duplicate elements and different data types. An array can be empty, or it may have different data type values.
 
-An array is a collection of different data types which are ordered and changeable(modifiable). An array allows storing duplicate elements and different data types. An array can be empty, or it may have different data type values.
+- In contrast to variables, an array can store _multiple values_. Each value in an array has an _index_, and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_, and the index of the last element is less by one from the length of the array.
 
 ### How to create an empty array
 
@@ -115,7 +115,6 @@ console.log(words);
 ### Accessing array items using index
 
 We access each element in an array using their index. An array index starts from 0. The picture below clearly shows the index of each element in the array.
-
 
 ```js
 const fruits = ["banana", "orange", "mango", "lemon"];
@@ -603,4 +602,3 @@ console.log(fullStack.length); // 2
 console.log(fullStack[0]); // ["HTML", "CSS", "JS", "React", "Redux"]
 console.log(fullStack[1]); // ["Node", "Express", "MongoDB"]
 ```
-
