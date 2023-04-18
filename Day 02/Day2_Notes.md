@@ -602,3 +602,11 @@ console.log(fullStack.length); // 2
 console.log(fullStack[0]); // ["HTML", "CSS", "JS", "React", "Redux"]
 console.log(fullStack[1]); // ["Node", "Express", "MongoDB"]
 ```
+
+# Class Assignemnt (to be done in class)
+
+1. [Remove Items from an Array with pop() and shift()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/remove-items-from-an-array-with-pop-and-shift)
+
+2. [Remove Items Using splice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/remove-items-using-splice)
+
+3. [Combine an Array into a String Using the join Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/combine-an-array-into-a-string-using-the-join-method)
