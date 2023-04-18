@@ -1,5 +1,6 @@
-## Functional Programming:
+# Functions contd.
 
+## Functional Programming:
 Functional Programming (FP) is a programming paradigm that focuses on using functions to solve problems. It emphasizes the use of pure functions (functions that have no side effects and return the same output for the same input), immutability (data that cannot be changed once it is created), and the avoidance of shared state and mutable data. In FP, functions are treated as first-class citizens and can be passed around as arguments to other functions, returned as values, and assigned to variables.
 
 ## forEach():

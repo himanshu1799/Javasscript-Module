@@ -61,7 +61,7 @@ console.log("Countries:", countries);
 console.log("Number of countries:", countries.length);
 ```
 
-```sh
+```js
 Numbers: [0, 3.14, 9.81, 37, 98.6, 100]
 Number of numbers: 6
 Fruits: ['banana', 'orange', 'mango', 'lemon']
