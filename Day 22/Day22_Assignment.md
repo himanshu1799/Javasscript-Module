@@ -2,11 +2,11 @@
 
 ### Exercises: Level 1
 
-1. Create a closure which has one inner function
+1. Create a closure which has one inner function.
 
 ### Exercises: Level 2
 
-1. Create a closure which has three inner functions
+1. Create a closure which has three inner functions.
 
 ### Exercises: Level 3
 
