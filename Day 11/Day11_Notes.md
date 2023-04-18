@@ -1,6 +1,6 @@
 # Event
 
-Events are actions or occurrences that happen in a web page, such as a button being clicked or a page finishing loading. Web developers can use events to trigger certain behaviors or actions in response to user interaction or changes to the web page. There are many different types of events available in JavaScript, including:
+***Events*** are actions or occurrences that happen in a web page, such as a button being clicked or a page finishing loading. Web developers can use events to trigger certain behaviors or actions in response to user interaction or changes to the web page. There are many different types of events available in JavaScript, including:
 
 - onclick: This event is triggered when a user clicks on an element.
 
@@ -120,4 +120,63 @@ outer.addEventListener("click", handleClick, true);
 </script>
 ```
 
+
 In this example, we have added the true parameter to each addEventListener() method call, which enables event capturing for each element. When the button is clicked, the event is first captured by the outermost element (the div with the ID "outer"), and then propagated down the DOM tree to the innermost element (the button). If any of the elements have an event listener for the "click" event, the listener function is executed during the capturing phase.
+
+## currentTarget and target
+
+- In JavaScript, currentTarget and target are properties of event objects that are used in event handling. They are often used in combination with the addEventListener() method.
+
+- currentTarget refers to the element on which the event listener is attached, while target refers to the element on which the event was originally triggered. These two properties can be different if the event listener is attached to a parent element and the event is triggered on a child element.
+
+For example, consider the following HTML code:
+```js
+<div id="parent">
+  <button id="child">Click me!</button>
+</div>
+
+```
+And the following JavaScript code:
+
+```js
+const parent = document.querySelector("#parent");
+const child = document.querySelector("#child");
+
+parent.addEventListener("click", (event) => {
+  console.log(event.currentTarget.id); // output: "parent"
+  console.log(event.target.id); // output: "child"
+});
+```
+- When the button with id="child" is clicked, the event listener attached to the parent element is triggered. In this case, currentTarget refers to the parent element (where the event listener is attached) and target refers to the child element (where the event was originally triggered).
+
+- target.value is a property that is commonly used when working with form elements, such as text inputs, textareas, and select dropdowns. It represents the current value of the form element.
+
+
+For example, consider the following HTML code:
+```js
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+<button id="submit">Submit</button>
+```
+
+And the following JavaScript code:
+```js
+const nameInput = document.querySelector("#name");
+const submitButton = document.querySelector("#submit");
+
+submitButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  console.log(nameInput.value);
+});
+
+```
+- hen the submitButton is clicked, the event listener is triggered and the current value of the nameInput element is logged to the console.
+
+- Note that target and currentTarget are objects with many other properties and methods that can be used to handle events. Similarly, value is a property that is just one of many properties available on form elements.
+
+
+# Class Assignment (To be done in class )
+
+***Implement a custom event emitter that allows you to create and emit custom events in your application. Include methods for adding and removing event listeners, as well as propagating events up or down the DOM tree.***
+
+***Build a custom menu system using event listeners for the "mouseover" and "mouseout" events on a parent element. The menu should dynamically display submenus when the user hovers over specific menu items.***

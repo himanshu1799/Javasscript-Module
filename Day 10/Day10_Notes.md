@@ -1,10 +1,12 @@
+# DOM Contd.
+
 ## Creating a DOM Element:
 
 To create a DOM element in JavaScript, you can use the createElement() method of the document object. This method takes a string argument representing the tag name of the element you want to create. You can then set the attributes and contents of the element using various methods and properties.
 
 Here is an example of how to create a div element and set its id attribute:
 
-```
+```js
 const div = document.createElement('div');
 div.id = 'myDiv';
 
@@ -16,7 +18,7 @@ To add a child element to a parent element in the DOM, you can use the appendChi
 
 Here is an example of how to add a p element to a div element:
 
-```
+```js
 const div = document.createElement('div');
 const p = document.createElement('p');
 div.appendChild(p);
@@ -28,7 +30,7 @@ To remove a child element from a parent element in the DOM, you can use the remo
 
 Here is an example of how to remove a p element from a div element:
 
-```
+```js
 const div = document.querySelector('div');
 const p = div.querySelector('p');
 div.removeChild(p);
@@ -38,7 +40,7 @@ div.removeChild(p);
 
 To implement a filtering feature based on gender value, you can use JavaScript to loop through a list of elements and hide or show them based on their gender value. Here is an example of how to do this:
 
-```
+```js
 <input type="radio" name="gender" value="male" onclick="filterList()"> Male
 <input type="radio" name="gender" value="female" onclick="filterList()"> Female
 
@@ -62,6 +64,10 @@ function filterList() {
   });
 }
 </script>
-
 ```
 
+# Class Assignment (to be done in class)
+
+## Filtering a List based on Gender:
+
+***Create an HTML page with a list of at least 10 people's names and genders.Write a JavaScript function that reads the selected gender from a set of radio buttons and displays only the names of people with that gender in the list, hiding the others.Add a **_"Show All"_** button that, when clicked, displays all the names in the list again***

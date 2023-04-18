@@ -1,4 +1,4 @@
-# Interview Questions 
+# Interview Questions
 
 1. Creating a DOM Element:
 
@@ -17,9 +17,3 @@
 - How do you remove a child element from a parent element using JavaScript?
 - Can you remove multiple child elements from a parent element at once?
 - What is the difference between removeChild() and replaceChild()?
-
-4. Implement Filtering Feature based on gender Value:
-
-- How can you implement a filtering feature in a list based on a specific value?
-- What is the difference between using classList and dataset to store values for filtering?
-- How can you reset the filter to show all items in the list again?
