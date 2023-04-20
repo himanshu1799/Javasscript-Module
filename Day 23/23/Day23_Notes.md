@@ -1,17 +1,3 @@
-- [Destructuring and Spread](#destructuring-and-spread)
-  - [Destructing Arrays](#destructing-arrays)
-  - [Destructuring during iteration](#destructuring-during-iteration)
-  - [Destructuring Object](#destructuring-object)
-  - [Renaming during structuring](#renaming-during-structuring)
-  - [Object parameter without destructuring](#object-parameter-without-destructuring)
-  - [Object parameter with destructuring](#object-parameter-with-destructuring)
-  - [Destructuring object during iteration](#destructuring-object-during-iteration)
-  - [Spread or Rest Operator](#spread-or-rest-operator)
-  - [Spread operator to get the rest of array elements](#spread-operator-to-get-the-rest-of-array-elements)
-  - [Spread operator to copy array](#spread-operator-to-copy-array)
-  - [Spread operator to copy object](#spread-operator-to-copy-object)
-    - [Spread operator with arrow function](#spread-operator-with-arrow-function)
-
 ## Destructuring and Spread
 
 Destructuring is a way to unpack arrays, and objects and assigning to a distinct variable.
