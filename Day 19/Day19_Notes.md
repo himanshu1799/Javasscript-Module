@@ -1,11 +1,3 @@
-- [HTML5 Web Storage](#html5-web-storage)
-  - [sessionStorage](#sessionstorage)
-  - [localStorage](#localstorage)
-  - [Use case of Web Storages](#use-case-of-web-storages)
-  - [HTML5 Web Storage Objects](#html5-web-storage-objects)
-    - [Setting item to the localStorage](#setting-item-to-the-localstorage)
-    - [Getting item from localStorage](#getting-item-from-localstorage)
-    - [Clearing the localStorage](#clearing-the-localstorage)
 
 ## HTML5 Web Storage
 

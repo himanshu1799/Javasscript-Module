@@ -1,7 +1,15 @@
+# Arrays
+## At the end of session , You will be able to  :
+- Define what an array is and how it is used in JavaScript.
+
+- Explain the length property of an array and how it can be used to retrieve the number of elements in an array.
+- Use the push(), pop(), shift(), and unshift() methods to add and remove elements from an array.
+- Use the slice() method to create a new array with a portion of the original array.
+- Use the splice() method to add or remove elements from an array at a specific index.
+- Use the some() and every() methods to test if at least one or every element in an array meets a certain condition, respectively.
+- An array is a collection of different data types which are ordered and changeable(modifiable). An array allows storing duplicate elements and different data types. An array can be empty, or it may have different data type values.'
+
 ## Arrays
-
-- An array is a collection of different data types which are ordered and changeable(modifiable). An array allows storing duplicate elements and different data types. An array can be empty, or it may have different data type values.
-
 - In contrast to variables, an array can store _multiple values_. Each value in an array has an _index_, and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_, and the index of the last element is less by one from the length of the array.
 
 ### How to create an empty array

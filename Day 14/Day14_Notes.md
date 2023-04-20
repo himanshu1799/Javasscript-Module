@@ -1,5 +1,15 @@
-## Asyncronous JavaScript
+# Asynchronous JavaScript
+## At the end of the session , you will be able to:
+- Understand the concept of asynchronous programming in JavaScript and why it is necessary for building responsive and efficient web applications.
 
+- Understand the drawbacks of asynchronous programming, including callback hell and other issues that can arise when working with asynchronous code.
+- Understand the concept of a callback function and how it is used to handle asynchronous code in JavaScript.
+- Understand the concept of a Promise object and how it can be used to handle asynchronous code in a more structured and manageable way.
+- Understand the different states of a Promise object, including pending, fulfilled, and rejected.
+- Know how to create a Promise object in JavaScript and how to use the then method to handle its resolution.
+Know how to handle errors in a Promise object using the catch method.
+
+## Asynchronous JavaScript
 **_Asynchronous programming is a programming paradigm that allows you to execute tasks in a non-blocking manner. Asynchronous programming is particularly useful when working with long-running tasks or tasks that require external resources, such as network requests. In JavaScript, asynchronous programming is commonly achieved using callbacks, Promises, and Async/Await._**
 
 ## Callbacks:

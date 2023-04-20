@@ -1,15 +1,11 @@
-- [Day 18](#day-18)
-  - [Browser Object Model](#browser-object-model)
-  - [BOM Examples](#the-important-bom-objects-are-as)
-  - [Document](#document)
-  - [Location](#location)
-  - [history](#history)
-  - [Navigator](#navigator)
-  - [screen](#screen)
-  
+# Browser Object Model
+## At the end of the session , you will be able to get a grasp of the following topics: 
+
+- Promise: The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value. Promises simplify the handling of asynchronous operations and help avoid callback hell.
+- Fetch API: The Fetch API provides a simple interface for fetching resources over the network. It returns a Promise that resolves to the Response object representing the response to the request.
+- Async/Await: Async/await is a modern way of writing asynchronous code in JavaScript. It allows writing asynchronous code that looks synchronous, making it easier to understand and maintain. Async functions always return a Promise, which allows them to be chained with other Promises using the then() method.
 
 ## Browser Object Model
-
 In order to communicate with the browser, one uses the Browser Object Model (BOM).
 
 Since window is the browser's default object, you can call all of its functions either directly or by supplying window. For example:
@@ -24,17 +20,16 @@ is same as:
 alert('hello javatpoint')
 ```
 
-We can use JavaScript's WebAPIs and Interfaces (object types) for creating online applications or websites. These objects and APIs enable us to manage the lifecycle of a webpage and carry out a number of tasks, such as changing screen size, opening and shutting new browser windows, updating URLs, retrieving cookies, and local storage, among other things.
+- We can use JavaScript's WebAPIs and Interfaces (object types) for creating online applications or websites. These objects and APIs enable us to manage the lifecycle of a webpage and carry out a number of tasks, such as changing screen size, opening and shutting new browser windows, updating URLs, retrieving cookies, and local storage, among other things.
 
-Browser objects are the interfaces (object types) that enable us to interact with the browser window. The word "browser object" isn't official, but it refers to a collection of objects that are members of multiple WebAPIs and are used to manage a variety of browser-related data and operations.
+- Browser objects are the interfaces (object types) that enable us to interact with the browser window. The word "browser object" isn't official, but it refers to a collection of objects that are members of multiple WebAPIs and are used to manage a variety of browser-related data and operations.
 
-For instance, when a browser opens an HTML document, the browser interprets it as a collection of hierarchical objects (HTML tags) and displays the data contained in these objects as a result (HTML page rendering). The document is parsed by the browser, which then generates a group of objects that define the content and its specifics. The image below shows the numerous objects that can be used to access different parts of the browser window:
+- For instance, when a browser opens an HTML document, the browser interprets it as a collection of hierarchical objects (HTML tags) and displays the data contained in these objects as a result (HTML page rendering). The document is parsed by the browser, which then generates a group of objects that define the content and its specifics. The image below shows the numerous objects that can be used to access different parts of the browser window:
 
-![](./img/bom.png)
 
-The numerous sorts of browser objects used to interact with the browser are part of multiple APIs. The model of these Browser objects is another name for the collection (BOM).
+- The numerous sorts of browser objects used to interact with the browser are part of multiple APIs. The model of these Browser objects is another name for the collection (BOM).
 
-Since Window is the browser's default object, you can call its functions directly.
+- Since Window is the browser's default object, you can call its functions directly.
 
 <hr>
 
@@ -55,7 +50,7 @@ Since Window is the browser's default object, you can call its functions directl
 
 **Syntax**
 
-```
+```js
 console.log("URL of the web page " + location.href)
 ```
 
@@ -63,7 +58,7 @@ console.log("URL of the web page " + location.href)
 
 **Syntax**
 
-```
+```js
 console.log("Domain name of current host page is " + location.hostname)
 ```
 
@@ -71,7 +66,7 @@ console.log("Domain name of current host page is " + location.hostname)
 
 **Syntax**
 
-```
+```js
 console.log("Protocol used by the current page is " + location.protocol)
 ```
 
@@ -79,7 +74,7 @@ console.log("Protocol used by the current page is " + location.protocol)
 
 **Syntax**
 
-```
+```js
 location.assign("http://www.google.com")
 ```
 
@@ -87,15 +82,9 @@ location.assign("http://www.google.com")
 
 **Syntax**
 
-```
+```js
 location.reload();
 ```
-
-**OUTPUT**
-
-![](./img/location.png)
-
-<hr>
 
 ## **history**
 
@@ -131,9 +120,7 @@ var e = window.history
 </html>
 ```
 
-**OUTPUT**
 
-![](./img/history.png)
 
 <hr>
 
@@ -147,27 +134,27 @@ var e = window.history
 var nav = window.navigator
 ```
 
-1 appName - returns the name
+1. appName - returns the name
 
-2 appVersion - returns the version
+2. appVersion - returns the version
 
-3 appCodeName - returns the code name
+3. appCodeName - returns the code name
 
-4 cookieEnabled - returns true if cookie is enabled otherwise false
+4. cookieEnabled - returns true if cookie is enabled otherwise false
 
-5 userAgent - returns the user agent
+5. userAgent - returns the user agent
 
-6 language - returns the language. It is supported in Netscape and Firefox only.
+6. language - returns the language. It is supported in Netscape and Firefox only.
 
-7 userLanguage - returns the user language. It is supported in IE only.
+7. userLanguage - returns the user language. It is supported in IE only.
 
-8 plugins returns - the plugins. It is supported in Netscape and Firefox only.
+8. plugins returns - the plugins. It is supported in Netscape and Firefox only.
 
-9 systemLanguage - returns the system language. It is supported in IE only.
+9. systemLanguage - returns the system language. It is supported in IE only.
 
-10 mimeTypes[] - returns the array of mime type. It is supported in Netscape and Firefox only.
+10. mimeTypes[] - returns the array of mime type. It is supported in Netscape and Firefox only.
 
-11 platform - returns the platform e.g. Win32.
+11. platform - returns the platform e.g. Win32.
 
 12 online - returns true if browser is online otherwise false.
 
@@ -199,9 +186,6 @@ var nav = window.navigator
 </html>
 ```
 
-**OUTPUT**
-
-![](./img/navigator.png)
 
 <hr>
 
@@ -248,8 +232,5 @@ Properties:
 </html>
 ```
 
-**OUTPUT**
-
-![](./img/screen.png)
 
 <hr>

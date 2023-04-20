@@ -1,13 +1,16 @@
-- [Promise](#promise)
-  - [Callbacks](#callbacks)
-    - [Promise constructor](#promise-constructor)
-  - [Fetch API](#fetch-api)
-  - [Async and Await](#async-and-await)
+# Promise
+## At the end of the session , you will be able to : 
 
+- Understand the Fetch API and its purpose
+
+- Make HTTP requests using the Fetch API
+- Handle responses from the Fetch API using Promises
+- Understand the basics of asynchronous programming using Async/Await syntax
+- Use Async/Await syntax to make HTTP requests and handle responses
+- Understand how Async/Await simplifies asynchronous programming compared to using Promises or Callbacks.
+We human give or receive a promise to do some activity at some point in time. If we keep the promise we make others happy but if we do not keep the promise, it may lead discontentment. Promise in JavaScript has something in common with the above examples.
 
 ## Promise
-
-We human give or receive a promise to do some activity at some point in time. If we keep the promise we make others happy but if we do not keep the promise, it may lead discontentment. Promise in JavaScript has something in common with the above examples.
 
 A Promise is a way to handle asynchronous operations in JavaScript. It allows handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
 

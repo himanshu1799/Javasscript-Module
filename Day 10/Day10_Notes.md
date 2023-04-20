@@ -1,5 +1,9 @@
 # DOM Contd.
+# At the end of the session , you will be able to :
 
+- Understand how to create new DOM elements in JavaScript using the createElement method.
+- Understand how to append child elements to a parent node using the appendChild method.
+- Understand how to remove child elements from a parent node using the removeChild method.
 ## Creating a DOM Element:
 
 To create a DOM element in JavaScript, you can use the createElement() method of the document object. This method takes a string argument representing the tag name of the element you want to create. You can then set the attributes and contents of the element using various methods and properties.
