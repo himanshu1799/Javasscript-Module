@@ -8,5 +8,3 @@
 6. What is the rest parameter in JavaScript, and how can you use it to pass an arbitrary number of arguments to a function?
 7. What are arrow functions in JavaScript, and how are they different from normal functions?
 8. What are the benefits of using arrow functions over normal functions in certain situations?
-9. How do arrow functions handle the "this" keyword compared to normal functions?
-10. Can you provide an example of using array destructuring, object destructuring, spread operator, rest parameter, and arrow functions together in a single code snippet?
