@@ -8,7 +8,6 @@
 - Understand the basics of asynchronous programming using Async/Await syntax
 - Use Async/Await syntax to make HTTP requests and handle responses
 - Understand how Async/Await simplifies asynchronous programming compared to using Promises or Callbacks.
-We human give or receive a promise to do some activity at some point in time. If we keep the promise we make others happy but if we do not keep the promise, it may lead discontentment. Promise in JavaScript has something in common with the above examples.
 
 ## Promise
 

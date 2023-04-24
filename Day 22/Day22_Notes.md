@@ -1,4 +1,13 @@
-## Closure
+# Closure
+## At the end of the session , you will be able to : 
+1. Understand the concept of closures and how they work in JavaScript.
+2. Explain how closures enable functions to access variables from their surrounding lexical scope, even after the outer function has returned.
+3. Understand the behavior of the "this" keyword in JavaScript and how it is determined at runtime.
+4. Explain how the "call", "apply", and "bind" methods can be used to set the "this" value for a function and to pass arguments to it.
+5. Understand how the "export" and "import" statements are used to create and use modules in JavaScript.
+6. Explain how the module scope works in JavaScript, including how it differs from the global and function scopes.
+7. Understand how to use the "export" keyword to make functions, variables, and objects available for use in other modules.
+8. Explain how to use the "import" keyword to import functions, variables, and objects from other modules.
 
 JavaScript allows writing function inside an outer function. We can write as many inner functions as we want. If inner function access the variables of outer function then it is called closure.
 

@@ -1,23 +1,31 @@
 # Browser Object Model
-## At the end of the session , you will be able to get a grasp of the following topics: 
 
-- Promise: The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value. Promises simplify the handling of asynchronous operations and help avoid callback hell.
-- Fetch API: The Fetch API provides a simple interface for fetching resources over the network. It returns a Promise that resolves to the Response object representing the response to the request.
-- Async/Await: Async/await is a modern way of writing asynchronous code in JavaScript. It allows writing asynchronous code that looks synchronous, making it easier to understand and maintain. Async functions always return a Promise, which allows them to be chained with other Promises using the then() method.
+## At the end of the session , you will be able to get a grasp of the following topics:
+
+1. Understand the purpose and functionality of the Browser Object Model (BOM).
+
+2. Identify and describe various examples of BOM objects, including the Document, Location, History, Navigator, and Screen objects.
+
+3. Understand how the Location object represents the current URL of the webpage and provides methods for navigating to other URLs.
+
+4. Explain how the Navigator object provides information about the user's browser, such as its name and version, and methods for detecting browser features.
+5. Understand how the Screen object provides information about the user's screen, such as its size and resolution.
+6. Explain how BOM objects can be used to interact with the browser and its environment, such as changing the content of the current webpage, navigating to a different URL, accessing the browser's navigation history, detecting the user's browser and its features, and obtaining information about the user's screen.
 
 ## Browser Object Model
+
 In order to communicate with the browser, one uses the Browser Object Model (BOM).
 
 Since window is the browser's default object, you can call all of its functions either directly or by supplying window. For example:
 
 ```js
-window.alert('hello javatpoint')
+window.alert("hello javatpoint");
 ```
 
 is same as:
 
 ```js
-alert('hello javatpoint')
+alert("hello javatpoint");
 ```
 
 - We can use JavaScript's WebAPIs and Interfaces (object types) for creating online applications or websites. These objects and APIs enable us to manage the lifecycle of a webpage and carry out a number of tasks, such as changing screen size, opening and shutting new browser windows, updating URLs, retrieving cookies, and local storage, among other things.
@@ -25,7 +33,6 @@ alert('hello javatpoint')
 - Browser objects are the interfaces (object types) that enable us to interact with the browser window. The word "browser object" isn't official, but it refers to a collection of objects that are members of multiple WebAPIs and are used to manage a variety of browser-related data and operations.
 
 - For instance, when a browser opens an HTML document, the browser interprets it as a collection of hierarchical objects (HTML tags) and displays the data contained in these objects as a result (HTML page rendering). The document is parsed by the browser, which then generates a group of objects that define the content and its specifics. The image below shows the numerous objects that can be used to access different parts of the browser window:
-
 
 - The numerous sorts of browser objects used to interact with the browser are part of multiple APIs. The model of these Browser objects is another name for the collection (BOM).
 
@@ -51,7 +58,7 @@ alert('hello javatpoint')
 **Syntax**
 
 ```js
-console.log("URL of the web page " + location.href)
+console.log("URL of the web page " + location.href);
 ```
 
 - location.hostname returns the domain name of the current host (excluding the port number)
@@ -59,7 +66,7 @@ console.log("URL of the web page " + location.href)
 **Syntax**
 
 ```js
-console.log("Domain name of current host page is " + location.hostname)
+console.log("Domain name of current host page is " + location.hostname);
 ```
 
 - location.protocol returns the web protocol being used by the current web page (http:, file: or https:)
@@ -67,7 +74,7 @@ console.log("Domain name of current host page is " + location.hostname)
 **Syntax**
 
 ```js
-console.log("Protocol used by the current page is " + location.protocol)
+console.log("Protocol used by the current page is " + location.protocol);
 ```
 
 - location.assign returns a new web page loaded in the window, when the complete address is specified.
@@ -75,7 +82,7 @@ console.log("Protocol used by the current page is " + location.protocol)
 **Syntax**
 
 ```js
-location.assign("http://www.google.com")
+location.assign("http://www.google.com");
 ```
 
 - location.reload reloads the current page. Its function is the same as that of reload button in the browser window.
@@ -93,7 +100,7 @@ location.reload();
 **SYNTAX**
 
 ```js
-var e = window.history
+var e = window.history;
 ```
 
 **EXAMPLE**
@@ -120,8 +127,6 @@ var e = window.history
 </html>
 ```
 
-
-
 <hr>
 
 ## **navigator**
@@ -131,7 +136,7 @@ var e = window.history
 **SYNTAX**
 
 ```js
-var nav = window.navigator
+var nav = window.navigator;
 ```
 
 1. appName - returns the name
@@ -171,21 +176,20 @@ var nav = window.navigator
   </head>
   <body>
     <script>
-      document.writeln('<br/>navigator.appCodeName: ' + navigator.appCodeName)
-      document.writeln('<br/>navigator.appName: ' + navigator.appName)
-      document.writeln('<br/>navigator.appVersion: ' + navigator.appVersion)
+      document.writeln("<br/>navigator.appCodeName: " + navigator.appCodeName);
+      document.writeln("<br/>navigator.appName: " + navigator.appName);
+      document.writeln("<br/>navigator.appVersion: " + navigator.appVersion);
       document.writeln(
-        '<br/>navigator.cookieEnabled: ' + navigator.cookieEnabled
-      )
-      document.writeln('<br/>navigator.language: ' + navigator.language)
-      document.writeln('<br/>navigator.userAgent: ' + navigator.userAgent)
-      document.writeln('<br/>navigator.platform: ' + navigator.platform)
-      document.writeln('<br/>navigator.onLine: ' + navigator.onLine)
+        "<br/>navigator.cookieEnabled: " + navigator.cookieEnabled
+      );
+      document.writeln("<br/>navigator.language: " + navigator.language);
+      document.writeln("<br/>navigator.userAgent: " + navigator.userAgent);
+      document.writeln("<br/>navigator.platform: " + navigator.platform);
+      document.writeln("<br/>navigator.onLine: " + navigator.onLine);
     </script>
   </body>
 </html>
 ```
-
 
 <hr>
 
@@ -215,22 +219,21 @@ Properties:
     <p id="Geeks5"></p>
     <p id="Geeks6"></p>
     <script>
-      document.getElementById('Geeks1').innerHTML =
-        ' The Screen width is ' + screen.width
-      document.getElementById('Geeks2').innerHTML =
-        ' The screen height is ' + screen.height
-      document.getElementById('Geeks3').innerHTML =
-        'The available screen width is ' + screen.availWidth
-      document.getElementById('Geeks4').innerHTML =
-        'The available screen height is ' + screen.availHeight
-      document.getElementById('Geeks5').innerHTML =
-        'The screen color depth is ' + screen.colorDepth
-      document.getElementById('Geeks6').innerHTML =
-        'The screen pixel depth is ' + screen.pixelDepth
+      document.getElementById("Geeks1").innerHTML =
+        " The Screen width is " + screen.width;
+      document.getElementById("Geeks2").innerHTML =
+        " The screen height is " + screen.height;
+      document.getElementById("Geeks3").innerHTML =
+        "The available screen width is " + screen.availWidth;
+      document.getElementById("Geeks4").innerHTML =
+        "The available screen height is " + screen.availHeight;
+      document.getElementById("Geeks5").innerHTML =
+        "The screen color depth is " + screen.colorDepth;
+      document.getElementById("Geeks6").innerHTML =
+        "The screen pixel depth is " + screen.pixelDepth;
     </script>
   </body>
 </html>
 ```
-
 
 <hr>

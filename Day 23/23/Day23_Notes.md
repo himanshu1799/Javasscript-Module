@@ -1,3 +1,16 @@
+# Destructuring and Spread
+
+## At the end of the session , you will be able to :
+
+1. Understand the concepts of array destructuring and object destructuring and how they allow you to extract values from arrays and objects.
+2. Explain how array destructuring can be used to assign array elements to individual variables.
+3. Explain how object destructuring can be used to assign object properties to individual variables.
+4. Understand the behavior of the spread operator in JavaScript and how it can be used to spread the elements of an array or object into another array or object.
+5. Understand the behavior of the rest parameter in JavaScript and how it can be used to represent an indefinite number of arguments as an array.
+6. Understand the syntax and behavior of arrow functions in JavaScript and how they differ from normal functions.
+7. Explain how arrow functions can be used to write more concise and readable code.
+
+
 ## Destructuring and Spread
 
 Destructuring is a way to unpack arrays, and objects and assigning to a distinct variable.
@@ -484,4 +497,53 @@ console.log(sumAllNums(1, 2, 3, 4, 5));
 ```sh
 15
 
+```
+### Rest parameter 
+
+The rest parameter syntax allows a function to accept an indefinite number of arguments as an array. It is denoted by three dots (...) followed by a parameter name. When the function is called, all the arguments passed after the defined parameters are collected into an array and assigned to the rest parameter.
+
+Here's an example of using the rest parameter syntax:
+```js
+function sum(...numbers) {
+  let result = 0;
+  for (let number of numbers) {
+    result += number;
+  }
+  return result;
+}
+
+console.log(sum(1, 2, 3)); // Output: 6
+console.log(sum(4, 5, 6, 7, 8)); // Output: 30
+```
+## Arrow Functions:
+Arrow functions are a new syntax introduced in ECMAScript 6 for defining functions in JavaScript. They provide a more concise syntax for defining functions compared to traditional function expressions. Arrow functions are defined using a fat arrow (=>) between the function parameters and the function body.
+
+Here's an example of using the arrow function syntax:
+
+```js
+const multiply = (a, b) => {
+  return a * b;
+};
+
+console.log(multiply(2, 3)); // Output: 6
+```
+The above code defines an arrow function named "multiply" that accepts two parameters and returns their product.
+
+## Differences between Normal Functions and Arrow Functions:
+There are several key differences between normal functions and arrow functions:
+
+Arguments handling: In a normal function, the "arguments" keyword can be used to access the arguments passed to the function, but arrow functions do not have their own "arguments" object.
+
+Syntax: Arrow functions provide a more concise syntax for defining functions, with the function body being implicitly returned if it is a single expression.
+
+Here's an example of the differences in syntax between a normal function and an arrow function:
+
+```js
+// Normal function
+function multiply(a, b) {
+  return a * b;
+}
+
+// Arrow function
+const multiply = (a, b) => a * b;
 ```
