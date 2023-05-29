@@ -142,6 +142,15 @@ In the below example, we are having an unordered list with only 1 child, and the
 
 To remove a child element from a parent element in the DOM, you can use the removeChild() method of the parent element. This method takes a single argument, which is the child element you want to remove.
 
+We have learned about JavaScript nodes. When we create a node, we refer to it as the root node, and the nodes that come from it are called child nodes.
+
+It is possible to remove a child node from its parent node using JavaScript removeChild() method. Therefore, The JavaScript removeChild() method is used for removing a child node from its parent node.
+
+There are several ways to remove a child element from the parent node. Let's look at them:
+
+Clearing innerHTML - Because this approach invokes the browser's HTML parser, it may not be suitable for high-performance applications.
+Looping to remove every lastChild - If it's faster to check for firstChild than lastChild, the loop continues to check for the firstChild.
+
 Here is an example of how to remove a p element from a div element:
 
 ```js
@@ -149,6 +158,58 @@ const div = document.querySelector('div');
 const p = div.querySelector('p');
 div.removeChild(p);
 ```
+Let's take an example to understand removechild in Javascript where we have a nested div inside a div element in our HTML document with some JavaScript.
+
+```js
+<!--Code to remove the child element from the parent element--> 
+<html>  
+<body>  
+<div id="parentID">
+	I am a parent
+  <div id="childID">
+    <p>I am a child!</p>
+  </div>
+</div>
+<script>  
+	let parentElement = document.getElementById("parentID");
+	let childElement = document.getElementById("childID");
+	parentElement.removeChild(childElement);  
+</script>  
+</body>  
+</html>  
+```
+In the above example, we can use JavaScript removeChild() method to remove the child element inside the parent element.
+
+The below code represents a parent element and a child element inside it.
+
+```html
+<div id="parentID">
+	I am a parent
+  <div id="childID">
+    <p>I am a child!</p>
+  </div>
+</div>
+```
+
+Let's see the JavaScript code to remove the child element:
+
+```
+let parentElement = document.getElementById("parentID");
+let childElement = document.getElementById("childID");
+parentElement.removeChild(childElement);
+```
+
+If we execute the above code, it gives the following output:
+
+```
+I am a parent
+```
+
+As you can see in the output above, the child element that was inside the parent element has been deleted. And at last, only the parent div will remain as <div id="parentID"></div>.
+
+The child element and any other elements nested within the child element will be removed.
+
+
 
 ## Implement Filtering Feature based on gender Value:
 
@@ -179,6 +240,12 @@ function filterList() {
 }
 </script>
 ```
+
+## Some other real life Example:
+
+- Gender filter in dating apps, etc.
+
+![alt text](../Images/dating.jpeg)
 
 # Class Assignment (to be done in class)
 
