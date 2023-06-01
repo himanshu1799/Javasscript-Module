@@ -1,1 +1,50 @@
 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 7 assignment</title>
+  </head>
+  <body>
+    <script>
+      var num = 20;
+      console.log(Math.sqrt(num));
+      console.log(Math.round(Math.random(0, 1) * 10));
+      let today = new Date();
+      console.log(today);
+      console.log(
+        "year :",
+        today.getFullYear(),
+        "\nMonth",
+        today.getMonth() + 1,
+        "\nDay of the month :",
+        today.getDate(),
+        "\nDay of the week :",
+        today.getDay()
+      );
+      today.setDate(31);
+      today.setFullYear(2022);
+      today.setMonth(11);
+      //   console.log(today);
+      console.log(
+        "year :",
+        today.getFullYear(),
+        "\nMonth",
+        today.getMonth() + 1,
+        "\nDay of the month :",
+        today.getDate(),
+        "\nDay of the week :",
+        today.getDay()
+      );
+      const bday = new Date(2000, 6, 20);
+      console.log(bday);
+      today = new Date();
+      const diff = Math.floor(
+        (today.getTime() - bday.getTime()) / (1000 * 60 * 60 * 24)
+      );
+
+      console.log(diff + " days");
+    </script>
+  </body>
+</html>
