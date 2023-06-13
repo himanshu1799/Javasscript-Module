@@ -1,1 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himanshu Deshmukh</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+    form * {
+      height: 50px;
+      width: 150px;
+      margin: 20px;
+    }
 
+    input {
+      outline: none;
+      border: 1px solid black;
+      border-radius: 15px;
+      height: 50px;
+      width: 190px;
+      margin: 20px;
+    }
+  </style>
+  <body>
+    <form>
+      <label for="colorDropdown">Select a color:</label>
+      <select id="colorDropdown">
+        <option value="white">-- Select an option --</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+      </select>
+
+      <br />
+
+      <label for="textBox">Text Box:</label>
+      <input style="outline: none" type="text" id="textBox" />
+
+      <br />
+    </form>
+    <script>
+      const colorDropdown = document.querySelector("#colorDropdown");
+      const textBox = document.querySelector("#textBox");
+      colorDropdown.addEventListener("change", () => {
+        textBox.style.backgroundColor = colorDropdown.value;
+      });
+    </script>
+  </body>
+</html>
