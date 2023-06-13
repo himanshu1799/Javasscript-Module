@@ -1,1 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e1dada;
+}
 
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  background-color: #42a4eb;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.addTodo {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-inline: 10px;
+  outline: none;
+  /* border-radius: 4px; */
+}
+input[type="time"] {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-inline: 10px;
+  outline: none;
+  width: 26px;
+}
+button {
+  padding: 8.5px 16px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  /* border-radius: 4px; */
+  cursor: pointer;
+}
+
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.todos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.task {
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  flex: 1;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 10px;
+}
+.datetime {
+  width: 20%;
+  font-size: 75%;
+  color: #5f5b5b;
+  margin-left: 20px;
+}
+/* .todos p {
+  flex: 1;
+  margin: 0 10px;
+} */
+/*  */
+.checked {
+  background-color: #5f5b5b;
+}
+.checked p {
+  text-decoration: line-through;
+}
