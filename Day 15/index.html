@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      fetch("https://restcountries.com/v2/all")
+        .then((response) => response.json())
+        .then((data) => {
+          data.forEach((country) => {
+            const { name, capital, languages, population, area } = country;
+            document.write("\nCountry:", name, "<br>");
+            document.write("Capital:", capital, "<br>");
+            document.write(
+              "Languages:",
+              languages.map((lang) => lang.name).join(", "),
+              "<br>"
+            );
+            document.write("Population:", population, "<br>");
+            document.write("Area:", area, "<br>");
+            document.write("---------------------------", "<br>");
+          });
+        })
+        .catch((error) => document.write("Error:", error));
+      // 2
 
+      fetch("https://api.thecatapi.com/v1/breeds")
+        .then((response) => response.json())
+        .then((data) => {
+          const catNames = data.map((cat) => cat.name);
+          document.write("Cat Names:", catNames, "<br>");
+        })
+        .catch((error) => document.write("Error:", error));
+      //3
+      // Average weight of cats (metric unit)
+      var catAPI = "https://api.thecatapi.com/v1/breeds";
+      var countApi = "https://restcountries.com/v2/all";
+      fetch(catAPI)
+        .then((response) => response.json())
+        .then((data) => {
+          const weights = data.map((cat) => cat.weight.metric.split("-")[0]);
+          const averageWeight =
+            weights.reduce((total, weight) => total + parseFloat(weight), 0) /
+            weights.length;
+          document.write("Average Weight:", averageWeight, "<br>");
+        })
+        .catch((error) => document.write("Error:", error));
+
+      // Counting total number of official languages in the world
+      fetch(countApi)
+        .then((response) => response.json())
+        .then((data) => {
+          const officialLanguages = new Set();
+          data.forEach((country) => {
+            const languages = country.languages.map((lang) => lang.name);
+            languages.forEach((language) => officialLanguages.add(language));
+          });
+          document.write(
+            "Total Number of Official Languages:",
+            officialLanguages.size,
+            "<br>"
+          );
+        })
+        .catch((error) => document.write("Error:", error));
+    </script>
+  </body>
+</html>
